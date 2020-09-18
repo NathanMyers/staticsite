@@ -27,6 +27,19 @@ LINKS = (('Pelican', 'https://getpelican.com/'),
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
           ('Another social link', '#'),)
+#Plugins
+
+PLUGIN_PATHS = ['pelican-plugins']
+
+THEME = 'pelican-themes/pelican-bootstrap3'
+BOOTSTRAP_THEME = 'flatly'
+
+PLUGIN_PATHS = ['pelican-plugins']
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGINS = [
+        'i18n_subsites']
+
+I18N_TEMPLATES_LANG = 'en'
 
 DEFAULT_PAGINATION = 5
 
